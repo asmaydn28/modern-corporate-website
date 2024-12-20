@@ -1,0 +1,199 @@
+header.header-hero{
+    background-color: #36517e;
+}
+.navbar-nav .nav-link.active {
+    color: #47b2e4 !important; 
+  }
+.navbar .nav-link {
+    color: white; 
+}
+/* seffaf navbar */
+.navbar.transparent {
+  background-color: transparent !important;
+  transition: background-color 0.3s ease;
+}
+
+/* Hamburger menü açıldığında koyu arka plan */
+.navbar.darkened {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar .nav-link:hover {
+    color: #47b2e4; 
+}
+/* get started ılk buton */
+a.get-started{
+   border-radius: 50px;
+    background-color: #47b2e4;
+    display: inline-block; 
+}
+.header-hero .container a.get-started:hover{
+    background-color: #38a2d2 !important;
+    color: white !important;
+}
+/* get started 2. buton */
+a.get-started2{
+    text-decoration: none;
+    color: white;
+    background-color: #47b2e4;
+    border-radius: 50px;
+}
+a.get-started2:hover{
+    background-color: #38a2d2 !important;
+    color: white;
+    
+}
+
+/* arsha yazı tıpı */
+a.arsha{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 500;
+    color: aliceblue(--heading-color);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* img anımasyonu */
+.moving-image {
+    animation: moveUpDown 4s infinite; 
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-20px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+/* watch video linki hover olması a ve i tagi için*/
+div a.watch-video:hover,
+div a.watch-video:hover i{
+    color: #47b2e4 !important;
+}
+
+/* navbar arka plan koyulasması */
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.6); /* Yarı şeffaf koyu renk */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  }
+ 
+  /* read-more butonu */
+  div a.read-more{
+    border: 2px solid #47b2e4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  div a.read-more:hover{
+    border: 2px solid #47b2e4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #47b2e4;
+    color: white !important;
+    transition: color 0.4s ease-in-out;
+  }
+  div a.read-more:hover i{
+    color: white !important;
+    transition: color 0.4s ease-in-out;
+  }
+
+/* accordion */
+div h2.accordion-header .accordion-button {
+    color: #47b2e4;
+    font-weight: bolder;
+    background-color: white;
+    border: 0px;
+    border-radius: 0px;
+}
+div.accordion-item{
+    border: 0px;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+section.bg-light .accordion-h2{
+    color: #36517e;
+}
+
+/* html css java photo */
+.skill-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .skill-item {
+    margin-bottom: 20px;
+  }
+  
+  .skill-bar {
+    height: 10px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .skill-progress {
+    height: 100%;
+    background-color: #36517e;
+  }
+
+  /* html css java baslık */
+  div h2.html-css-java{
+    color: #36517e;
+  }
+
+  /* card anımasyon */
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  }
+
+  /* bina arkaplan */
+  section.bina-arkaplan{
+    background: url(bina-arkaplan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #8eafe8;
+    background-blend-mode: multiply;
+  }
+
+  /* call to action buton */
+  section.bina-arkaplan div button.call-to-action{
+    color: white;
+    border: 2px solid white;
+    transition: background-color 0.8s ease, color 0.8s ease;
+  }
+  section.bina-arkaplan div button.call-to-action:hover{
+    border-color: #47b2e4;
+    background-color: #47b2e4;
+  }
+
+  /* contact altındaki i hover olması */
+  section div.container div.row div i.contact:hover{
+    color: white;
+    background-color: #47b2e4 !important;
+  }
+
+  /* contact alt-üst form ustunu mavı yapma */
+  section div.container div.row div.form-top{
+    border-top: 3px solid #47b2e4 !important;
+    border-bottom: 3px solid #47b2e4 !important;
+  }
+
+  /* footer lınkler */
+  div ul.list-unstyled li a:hover{
+    color: #47b2e4 !important;
+  }
