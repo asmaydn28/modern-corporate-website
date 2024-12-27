@@ -162,7 +162,7 @@ section.bg-light .accordion-h2{
 
   /* bina arkaplan */
   section.bina-arkaplan{
-    background: url(bina-arkaplan.jpg);
+    background: url(img/bina-arkaplan.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
